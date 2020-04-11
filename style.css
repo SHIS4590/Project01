@@ -8,7 +8,7 @@ body{
     width:980px;
 	margin: 30px auto;
     padding:0;
-    background: #FFFFFF url("picture/img1.JPG");
+    background: #FFFFFF url("picture/img1.jpg");
     height: 400px;
     background-attachment:fixed;
     background-position: center;
@@ -77,16 +77,16 @@ h1{
 #p4{
     font-size:20px;
     color:darkolivegreen;
-    background:#FFFFFF url("picture/img2.jpg") repeat-y; 
+    background:#FFFFFF url("picture/img2.JPG") repeat-y; 
 }
 #p5{
     font-size:20px;
     color:darkolivegreen;
-    background:#FFFFFF url("picture/img5.jpg"); 
+    background:#FFFFFF url("picture/img5.JPG"); 
 }
 #p6{
     font-size:20px;
-    background:#FFFFFF url("picture/img6.jpg"); 
+    background:#FFFFFF url("picture/img6.JPG"); 
 }
 #footer {
 	height: 15px;
@@ -140,7 +140,7 @@ ul li {
 .L1 {
     margin-bottom: 2em;
 }
-@media (max-width:800px) {
+@media (max-width:850px) {
     body{
         font-size:14px;
         width:550px;
