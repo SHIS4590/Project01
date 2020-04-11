@@ -1,0 +1,89 @@
+<!-- comments.html -->
+<html>
+    <head>
+        <title>Project01</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="Shortcut Icon" href="picture/logo.ico" type="image/x-icon" />
+	<audio controls="controls">
+            <source src="music.mp3" type="audio/mpeg">
+                <embed src="music.mp3" />
+          </audio>
+
+        <script language="javascript" type="text/javascript">
+                function $(id){return document.getElementById(id)}
+                function submitTest(){
+                    var msg = "Name："+$ ("input1").value;
+                    msg+="\n Phone number："+$("input2").value;
+                    msg+="\n E-mail："+$("input3").value;
+                    msg+="\n Comment："+$("input4").value;
+                    alert(msg);
+                    return false;
+                }
+            function resetTest(){alert("clear data");}
+        </script>
+    </head>
+    <body id="mainbody">
+        <div id="header" align="center">
+            <h1><strong>Miyazaki Hayao</strong></h1>
+        </div>
+        <div id="menu">
+            <ul>
+                <li class="active"><a href="index.html"><b>Home Page</b></a></li>
+                <li><a href="introduction.html"><b>Introduction </b></a></li>
+                <li><a href="experience.html"><b>Experience</b></a></li>
+                <li><a href="films.html"><b>Main films</b></a></li>
+                <li><a href="comments.html"><b>comments</b></a></li>
+           </ul>
+       </div>
+        <hr align="center" color="green">
+        <form method="post" action="">
+            <table background="picture/img15.jpg" width="980px" border="0px" cellpadding="0" align="center" bordercolor="green">
+                <tr>
+                    <td>
+                            <script language=javascript>
+                                var curIndex=0
+                                var timeInterval=3000;
+                                var arr=new Array();
+                                arr[0]="picture/r1.png";
+                                arr[1]="picture/r2.jpg";
+                                arr[2]="picture/r3.jpg";
+                                arr[3]="picture/r4.jpg";
+                                arr[4]="picture/r5.jpg";
+                                setInterval(changelmg,timeInterval);
+                                function changelmg(){
+                                    var obj=document.getElementById("obj");
+                                    if(curIndex==arr.length-1){
+                                        curIndex=0;
+                                    }
+                                    else{
+                                        curIndex+=1;
+                                    }
+                                    obj.src=arr[curIndex];
+                                }
+                            </script>
+                            <img id=obj src="picture/r1.png" width="450" height="300" border=0 align="center" />
+                        </td>
+                </tr>
+                 </table>
+        </form>
+        <form onSubmit="return submitTest();" onReset="resetTest()" >
+            <fieldset>
+                <legent><h2>Comments</h2></legent>
+                <br><div class="L1"><label>Name:</label><input type="test" id="input1"></div>
+                <br><div class="L1"><label>Phone Number:</label><input type="phone" id="input2"></div>
+                <br><div class="L1"><label>E-mail:</label><input type="mail" id="input3"></div>
+                <br><div class="L1"><label>Comment：</label><textarea rows="10" cols="40" input type="text" id="input4">
+                    
+                    </textarea>
+                    </div>
+                <br><input type="submit" value="Submit">
+                <input type="reset" value="reset">
+            </fieldset>
+            
+        </form>
+        
+                
+        </body>
+</html>
