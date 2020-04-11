@@ -8,7 +8,7 @@ body{
     width:980px;
 	margin: 30px auto;
     padding:0;
-    background: #FFFFFF url("picture/img1.jpg");
+    background: #FFFFFF url("../picture/img1.jpg");
     height: 400px;
     background-attachment:fixed;
     background-position: center;
@@ -47,6 +47,10 @@ body{
 	height: 40px;     
 	padding: 7px 20px 0 20px;
 }
+#table {
+    width: 980px;
+
+}
 #header {
 	width: 980px;
 	height: 92px;
@@ -77,16 +81,17 @@ h1{
 #p4{
     font-size:20px;
     color:darkolivegreen;
-    background:#FFFFFF url("picture/img2.JPG") repeat-y; 
+    background:#FFFFFF url("../picture/img2.JPG") repeat-y; 
+    background-position: 70%;
 }
 #p5{
     font-size:20px;
     color:darkolivegreen;
-    background:#FFFFFF url("picture/img5.JPG"); 
+    background:#FFFFFF url("../picture/img5.JPG"); 
 }
 #p6{
     font-size:20px;
-    background:#FFFFFF url("picture/img6.JPG"); 
+    background:#FFFFFF url("../picture/img6.JPG"); 
 }
 #footer {
 	height: 15px;
@@ -143,13 +148,12 @@ ul li {
 @media (max-width:800px) {
     body{
         font-size:14px;
-        width:550px;
+        width:80%;
         margin: 10px auto;
     }
     #menu {
-        width: 600px;
+        width: 100%;
         height: 20px;
-
     }
     #menu b {
         display: block;
@@ -187,10 +191,10 @@ ul li {
         padding: 12px;
     }
     #content {
-        width: 550px;
+        width: 80%;
     }
     #content_1 {
-        width: 550px;
+        width: 80%;
     }
      ul{
         margin-bottom: 0.7em;
@@ -204,9 +208,12 @@ ul li {
     .td1{
         line-height:16px;
         font-size:14px;
-        width:60px;
+        width:12%;
     }
     .L1 {
         margin-bottom: 1em;
+    }
+    #table{
+        width:100%;
     }
 }
