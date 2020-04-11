@@ -84,11 +84,6 @@ h1{
     background:#FFFFFF url("../picture/img2.JPG") repeat-y; 
     background-position: 70%;
 }
-#p5{
-    font-size:20px;
-    color:darkolivegreen;
-    background:#FFFFFF url("../picture/img5.JPG"); 
-}
 #p6{
     font-size:20px;
     background:#FFFFFF url("../picture/img6.JPG"); 
@@ -178,9 +173,6 @@ ul li {
         font-size:14px;
     }
     #p4{
-        font-size:14px;
-    }
-    #p5{
         font-size:14px;
     }
     #p6{
