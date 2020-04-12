@@ -17,3 +17,4 @@ var curIndex=0
     }
     obj.src=arr[curIndex];
     }
+    

@@ -1,6 +1,10 @@
 .L1 {
     margin-bottom: 2em;
 }
+#hr_c{
+    align-items: center; 
+    border-color: green;
+}
 
 @media (max-width:800px){
     .L1 {

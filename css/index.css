@@ -2,8 +2,82 @@
     font-size:20px;
     color:dimgrey; 
 }
+#p1_1{
+    font-size:20px;
+    color:dimgrey; 
+}
+#hr_i{
+    align-items: center;
+    border-color: green;
+}
+#hr_i_2{
+    align-items: center;
+    border-color: green;
+}
+#table_i{
+    background:#FFFFFF url("../images/img3.jpg");
+    border:0px; 
+    align-items: center;
+    border-color: green;
+}
+#h3_i{
+    text-align: center;
+}
+#h3_i_2{
+    text-align: center;
+}
+#h3_i_3{
+    text-align: center;
+}
+#hr_i2
+{
+    align-items: center;
+    color: gray;
+    width: 20%;
+}
+#hr_i2_2
+{
+    align-items: center;
+    color: gray;
+    width: 20%;
+}
+#hr_i2_3
+{
+    align-items: center;
+    color: gray;
+    width: 20%;
+}
+#content_i{
+    align-items: center;
+    text-align: center;
+}
+.marquee{
+    width: 100%;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    text-indent: 0;
+    animation: marquee 25s linear infinite;
+}
+
+.marquee span:hover {
+    animation-play-state: paused
+}
+
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
 @media (max-width:800px){
     #p1{
+        font-size:14px;
+    }
+    #p1_1{
         font-size:14px;
     }
 

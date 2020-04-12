@@ -1,5 +1,5 @@
-<!-- comments.html -->
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <title>Project01</title>
         <meta charset="UTF-8">
@@ -7,14 +7,14 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/comments.css">
         <link rel="Shortcut Icon" href="images/logo.ico" type="image/x-icon" />
-	    <audio controls="controls">
+    </head>
+    <body>
+        <audio controls="controls">
             <source src="music/music.mp3" type="audio/mpeg">
                 <embed src="music/music.mp3" />
           </audio>
-        <script src="js/comment.js" language="javascript" type="text/javascript"></script>
-    </head>
-    <body>
-        <div id="header" align="center">
+        <script src="js/comment.js"></script>
+        <div id="header">
             <h1><strong>Miyazaki Hayao</strong></h1>
         </div>
         <div id="menu">
@@ -26,26 +26,24 @@
                 <li><a href="comments.html"><b>Comments</b></a></li>
            </ul>
        </div>
-        <hr align="center" color="green">
-        <form method="post" action="">
-            <table background="images/img15.JPG" width="100%" border="0px" cellpadding="0" align="center" bordercolor="green">
+        <hr id="hr_c">
+        <form method="post">
+            <table style="background-image:url(images/img15.JPG); width:100%; height:300px; align-items:center;" >
                 <tr>
                     <td>
-                            <script src="js/picture.js" language=javascript></script>
-                            <img id=obj src="images/r1.PNG" width="450" height="300" border=0 align="center" />
-                        </td>
+                        <script src="js/picture.js" ></script>
+                        <img id=obj src="images/r1.PNG" alt="" style="width: 450px; height: 300px;" />
+                    </td>
                 </tr>
                  </table>
         </form>
         <form onSubmit="return submitTest();" onReset="resetTest()" >
             <fieldset>
-                <legent><h2>Comments</h2></legent>
-                <br><div class="L1"><label>Name:</label><input type="test" id="input1"></div>
-                <br><div class="L1"><label>Phone Number:</label><input type="phone" id="input2"></div>
-                <br><div class="L1"><label>E-mail:</label><input type="mail" id="input3"></div>
-                <br><div class="L1"><label>Comment：</label><textarea rows="10" cols="40" input type="text" id="input4">
-                    
-                    </textarea>
+                <h2>Comments</h2>
+                <br><div class="L1"><label>Name:</label><input type="text" id="input1"></div>
+                <br><div class="L1"><label>Phone Number:</label><input type="number" id="input2"></div>
+                <br><div class="L1"><label>E-mail:</label><input type="email" id="input3"></div>
+                <br><div class="L1"><label>Comment：</label><textarea rows="10" cols="40" id="input4"></textarea>
                     </div>
                 <br><input type="submit" value="Submit">
                 <input type="reset" value="reset">

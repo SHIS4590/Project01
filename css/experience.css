@@ -4,6 +4,13 @@
     background:#FFFFFF url("../images/img2.JPG") repeat-y; 
     background-position: 70%;
 }
+#hr_e{
+    align-items: center;
+    border-color: green;
+}
+#h2_e{
+    text-align: center;
+}
 @media (max-width:800px){
     #p4{
         font-size:14px;

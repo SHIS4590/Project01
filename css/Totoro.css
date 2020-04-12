@@ -2,6 +2,19 @@
     font-size:20px;
     color:dimgrey; 
 }
+#hr_t{
+    align-items: center;
+    border-color: green;
+}
+#hr_t2{
+    align-items: center;
+    border-color: grey;
+    width:20%
+}
+#td_1{
+    width:80%;
+}
+
 @media (max-width:800px){
     #p1{
         font-size:14px;

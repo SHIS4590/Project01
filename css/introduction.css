@@ -2,6 +2,15 @@
     font-size:20px;
     color:dimgrey; 
 }
+#hr_1{
+    align-items: center;
+    border-color: green;
+}
+#hr_2{
+    align-items: center;
+    border-color: green;
+    width:90%;
+}
 @media (max-width:800px){
     #p1{
         font-size:14px;
