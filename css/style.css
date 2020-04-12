@@ -8,7 +8,7 @@ body{
     width:980px;
 	margin: 30px auto;
     padding:0;
-    background: #FFFFFF url("../picture/img1.jpg");
+    background: #FFFFFF url("../images/img1.jpg");
     height: 400px;
     background-attachment:fixed;
     background-position: center;
@@ -66,27 +66,9 @@ h1{
     color:darkslategrey;
     font-size: 40px;
 }
-#p1{
-    font-size:20px;
-    color:dimgrey; 
-}
-#p2{
-    font-size:20px;
-    color:darkgreen; 
-}
 #p3{
     font-size:20px;
     color:darkolivegreen;
-}
-#p4{
-    font-size:20px;
-    color:darkolivegreen;
-    background:#FFFFFF url("../picture/img2.JPG") repeat-y; 
-    background-position: 70%;
-}
-#p6{
-    font-size:20px;
-    background:#FFFFFF url("../picture/img6.JPG"); 
 }
 #footer {
 	height: 15px;
@@ -129,17 +111,6 @@ ul li {
     text-align: right;
 }
 
-.td1{
-    line-height:22px;
-    font-size:20px;
-    color:darkolivegreen;
-    width:100px;
-    font-weight:bold;
-    text-align:center;
-}
-.L1 {
-    margin-bottom: 2em;
-}
 @media (max-width:800px) {
     body{
         font-size:14px;
@@ -163,19 +134,8 @@ ul li {
     h1{
          font-size:25px;
     }
-    #p1{
-        font-size:14px;
-    }
-    #p2{
-        font-size:14px;
-    }
+    
     #p3{
-        font-size:14px;
-    }
-    #p4{
-        font-size:14px;
-    }
-    #p6{
         font-size:14px;
     }
     #footer {
@@ -195,15 +155,6 @@ ul li {
     
     ul li {
         padding-left: 5px;
-    }
-   
-    .td1{
-        line-height:16px;
-        font-size:14px;
-        width:12%;
-    }
-    .L1 {
-        margin-bottom: 1em;
     }
     #table{
         width:100%;

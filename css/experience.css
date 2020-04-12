@@ -1,0 +1,12 @@
+#p4{
+    font-size:20px;
+    color:darkolivegreen;
+    background:#FFFFFF url("../images/img2.JPG") repeat-y; 
+    background-position: 70%;
+}
+@media (max-width:800px){
+    #p4{
+        font-size:14px;
+    }
+
+}

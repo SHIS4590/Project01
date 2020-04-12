@@ -1,0 +1,10 @@
+#p6{
+    font-size:20px;
+    background:#FFFFFF url("../images/img6.JPG"); 
+}
+@media (max-width:800px){
+    #p6{
+        font-size:14px;
+    }
+
+}

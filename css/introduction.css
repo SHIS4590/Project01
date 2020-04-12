@@ -1,0 +1,10 @@
+#p1{
+    font-size:20px;
+    color:dimgrey; 
+}
+@media (max-width:800px){
+    #p1{
+        font-size:14px;
+    }
+
+}

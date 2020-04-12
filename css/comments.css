@@ -1,0 +1,9 @@
+.L1 {
+    margin-bottom: 2em;
+}
+@media (max-width:800px){
+    .L1 {
+        margin-bottom: 1em;
+    }
+
+}

@@ -5,7 +5,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="Shortcut Icon" href="picture/logo.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="css/experience.css">
+        <link rel="Shortcut Icon" href="images/logo.ico" type="image/x-icon" />
         <audio controls="controls">
             <source src="music/music.mp3" type="audio/mpeg">
                 <embed src="music/music.mp3" />
@@ -50,28 +51,8 @@
             <table align="center" border="0">
                 <tr>
                     <td ><p class="myleft">
-                        <script language=javascript>
-                            var curIndex=0
-                            var timeInterval=1000;
-                            var arr=new Array();
-                            arr[0]="picture/img11.JPG";
-                            arr[1]="picture/img7.JPG";
-                            arr[2]="picture/img9.JPG";
-                            arr[3]="picture/img8.JPG";
-                            arr[4]="picture/img12.JPG";
-                            setInterval(changelmg,timeInterval);
-                            function changelmg(){
-                                var obj=document.getElementById("obj");
-                                if(curIndex==arr.length-1){
-                                    curIndex=0;
-                                }
-                                else{
-                                    curIndex+=1;
-                                }
-                                obj.src=arr[curIndex];
-                            }
-                        </script>
-                        <img id=obj src="picture/img11.JPG" width="300" border=0 />
+                        <script src="js/experience.js" language=javascript></script>
+                        <img id=obj src="images/img11.JPG" width="300" border=0 />
                         </p>
                     </td>
                     </tr>
